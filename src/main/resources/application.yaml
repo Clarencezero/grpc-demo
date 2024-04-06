@@ -1,0 +1,8 @@
+# Grpc配置
+grpc:
+  client:
+    address2: abc
+    local-grpc-server:
+      address: static://localhost:9091
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
